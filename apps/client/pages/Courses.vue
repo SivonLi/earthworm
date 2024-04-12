@@ -4,7 +4,7 @@
     <div class="h-full scrollbar-hide">
       <div
         v-if="courses.length"
-        class="h-[79vh] flex flex-wrap p-1 pb-96 overflow-x-hidden overflow-y-auto gap-8 justify-start"
+        class="h-[79vh] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-center gap-8 p-1 pb-96 overflow-y-auto"
       >
         <template
           v-for="course in courses"
